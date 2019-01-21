@@ -1,0 +1,8 @@
+version: '3'
+services:
+  php:
+    container_name: spiel-no-oop
+    volumes:
+      - ./:/app
+    build:
+      context: .docker
